@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+.b-style{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 100vh;
+    padding: 3%; 
+}
+
+.b-section__left{
+    width: 50%;
+    padding: 5%; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.b-logo{
+    width: 125px;
+}
+
+.b-section__text{
+    font-size: 48px;
+    font-family: Arial;
+    color: #1D1D1F;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 14px;
+}
+
+.b-section__price{
+    font-size: 21px;
+    font-family: Arial;
+    color: #1D1D1F;
+    font-weight: 400;
+    margin: 0; 
+    margin-top: 14px;
+}
+
+.b-section__info{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25px; 
+}
+
+.b-section__button{
+    background-color: #0171E2;
+    border-radius: 25px;
+    border: 0;
+    margin-right: 7px;
+    padding: 8px 18px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.b-section__plus{
+    font-size: 21px;
+    font-family: Arial;
+    color: #0171E2; 
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 14px;
+    margin: 0;
+}
+
+.b-section__right{
+    width: 50%;
+    padding: 5%; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.b-section__right img{
+    max-width: 100%;
+}
